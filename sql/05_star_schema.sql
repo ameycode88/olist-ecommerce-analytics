@@ -2,6 +2,7 @@
 -- Create Customer Dimension
 -- ==========================================
 
+
 CREATE TABLE dim_customers (
     customer_id TEXT PRIMARY KEY,
     customer_unique_id TEXT,
