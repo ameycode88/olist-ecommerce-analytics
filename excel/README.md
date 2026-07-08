@@ -9,7 +9,7 @@ This workbook demonstrates business analysis using Microsoft Excel.
 - Payment Method × Installments Analysis
 - Conditional Formatting for Delivery Performance
 - Interactive Slicers
-- Excel Formulas (SUM, COUNTIFS, AVERAGEIFS)
+- Excel Formulas (SUMIF, COUNTIFS, AVERAGEIFS)
 
 Dataset:
 - Olist Brazilian E-Commerce Dataset (2018 subset)
