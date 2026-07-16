@@ -1,4 +1,5 @@
 Olist E-Commerce Sales & Customer Analytics
+
 **1. Project Overview**
 
 This project analyzes the Brazilian E-Commerce Public Dataset by Olist to uncover sales performance, customer behavior, seller performance, and logistics efficiency using SQL, Excel, and Power BI.
@@ -33,6 +34,7 @@ Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/suggestions
 
 
 **3. Business Questions**
+
 This project answers questions such as:
 
 Executive Analytics
@@ -56,6 +58,7 @@ Operations & Logistics
 
 
 **4. Tech Stack**
+
 Database
   - PostgreSQL
 
@@ -67,6 +70,7 @@ Business Intelligence
   - Power BI
 
 DAX
+
 Examples include:
 
 1. Total Revenue
@@ -81,7 +85,9 @@ Version Control
   - Git
   - GitHub
 
+
 **5. Project Workflow**
+
 Raw CSV Files
         │
         ▼
@@ -102,36 +108,51 @@ Power BI
 
 
 **6. Dashboard Preview**
+
 Excel Dashboard
+
 ![Excel Dashboard](screenshots/excel_dashboard.png)
 
 Power BI Executive Dashboard
+
 ![Executive Dashboard](screenshots/powerbi_page1.png)
 
 Power BI Operations Dashboard
+
 ![Operations Dashboard](screenshots/powerbi_page2.png)
 
 
 **7. Key Insights**
+
 Sales
+
   Revenue consistently increased during the analysis period.
+  
   A small number of product categories contributed a significant share of total revenue.
 
 Customer
+  
   Sales were concentrated in a few major Brazilian states.
+  
   Credit Card was the most frequently used payment method.
 
 Operations
+  
   More than 93% of deliveries were completed on time.
+  
   Average delivery time remained around 12 days.
+  
   Underperforming sellers were identified based on revenue contribution.
 
 Logistics
+  
   Freight costs varied considerably across regions.
+  
   Delivery efficiency remained consistently high throughout the period.
 
 
 **8. Folder Structure**
+
 olist-ecommerce-analytics/
 
 ├── data/
@@ -154,23 +175,30 @@ olist-ecommerce-analytics/
 
 
 **9. How to Run**
+
 1. Clone Repository
+
 git clone https://github.com/ameycode88/olist-ecommerce-analytics.git
 
 2. Import Dataset
+
 Download the Olist dataset from Kaggle and import the CSV files into PostgreSQL.
 
 3. Execute SQL Scripts
+
 Run the SQL scripts in the sql folder to clean, transform, and analyze the data.
 
 4. Open Power BI
+
 Open:
+
   powerbi/Olist_Ecommerce_Analytics.pbix
 
 Refresh the data if prompted.
 
 
 **Skills Demonstrated**
+
 - SQL Data Cleaning
 - Exploratory Data Analysis (EDA)
 - Star Schema Modeling
