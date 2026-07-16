@@ -1,7 +1,6 @@
 Olist E-Commerce Sales & Customer Analytics
-
-
-**1. Project Overview**
+<br><br>
+### **1. Project Overview**
 
 This project analyzes the Brazilian E-Commerce Public Dataset by Olist to uncover sales performance, customer behavior, seller performance, and logistics efficiency using SQL, Excel, and Power BI.
 
@@ -14,9 +13,8 @@ Identify top-performing and underperforming sellers
 Measure delivery performance and logistics efficiency
 Build interactive dashboards for business decision-making
 
-
-
-**2. Dataset**
+<br><br>
+### **2. Dataset**
 
 Dataset: Brazilian E-Commerce Public Dataset by Olist
 
@@ -35,24 +33,25 @@ It represents real Brazilian e-commerce transactions between 2016 and 2018.
 Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/suggestions
 
 
+<br><br>
 
-**3. Business Questions**
+### **3. Business Questions**
 
 This project answers questions such as:
 
-Executive Analytics
+**Executive Analytics**
 1. What is the total revenue generated?
 2. How many orders were placed?
 3. What is the Average Order Value (AOV)?
 4. Which product categories generate the highest revenue?
 5. Which states contribute the most sales?
    
-Customer Analytics
+**Customer Analytics**
 1. Which locations generate the highest revenue?
 2. How does customer distribution vary across Brazil?
 3. Which payment methods are preferred?
 
-Operations & Logistics
+**Operations & Logistics**
 1. What is the average delivery time?
 2. What percentage of orders are delivered on time?
 3. Which sellers are underperforming?
@@ -60,22 +59,23 @@ Operations & Logistics
 5. How efficient is the delivery process?
 
 
+<br><br>
 
-**4. Tech Stack**
+### **4. Tech Stack**
 
-Database
+**Database**
   - PostgreSQL
 
-Data Analysis
+**Data Analysis**
   - SQL
   - Excel
 
-Business Intelligence
+**Business Intelligence**
   - Power BI
 
-DAX
+**DAX**
 
-Examples include:
+**Examples include:**
 
 1. Total Revenue
 2. Total Orders
@@ -85,15 +85,18 @@ Examples include:
 6. Average Freight Cost
 7. Dynamic Top N Analysis
 
-Version Control
+**Version Control**
   - Git
   - GitHub
 
 
+<br><br>
 
-**5. Project Workflow**
+### **5. Project Workflow**
 
+```text
 Raw CSV Files
+
         │
         ▼
 PostgreSQL
@@ -110,57 +113,61 @@ Processed Dataset
         ▼
 Power BI
 (DAX + Interactive Dashboard)
+```
 
+<br><br>
 
-
-**6. Dashboard Preview**
+### **6. Dashboard Preview**
 
 Excel Dashboard
 
-![Excel Dashboard](screenshots/excel_dashboard.png)
+![Excel Dashboard](https://github.com/ameycode88/olist-ecommerce-analytics/blob/main/screenshots/excel_dashboard.png)
 
 Power BI Executive Dashboard
 
-![Executive Dashboard](screenshots/powerbi_page1.png)
+![Executive Dashboard](https://github.com/ameycode88/olist-ecommerce-analytics/blob/main/screenshots/powerbi_page1.png)
 
 Power BI Operations Dashboard
 
-![Operations Dashboard](screenshots/powerbi_page2.png)
+![Operations Dashboard](https://github.com/ameycode88/olist-ecommerce-analytics/blob/main/screenshots/powerbi_page2.png)
 
 
+<br><br>
 
-**7. Key Insights**
+### **7. Key Insights**
 
-Sales
+   - **Sales**
 
-  Revenue consistently increased during the analysis period.
+     Revenue consistently increased during the analysis period.
   
-  A small number of product categories contributed a significant share of total revenue.
+     A small number of product categories contributed a significant share of total revenue.
 
-Customer
+   - **Customer**
   
-  Sales were concentrated in a few major Brazilian states.
+        Sales were concentrated in a few major Brazilian states.
   
-  Credit Card was the most frequently used payment method.
+        Credit Card was the most frequently used payment method.
 
-Operations
+   - **Operations**
   
-  More than 93% of deliveries were completed on time.
+        More than 93% of deliveries were completed on time.
   
-  Average delivery time remained around 12 days.
+        Average delivery time remained around 12 days.
   
-  Underperforming sellers were identified based on revenue contribution.
+        Underperforming sellers were identified based on revenue contribution.
 
-Logistics
+   - **Logistics**
   
-  Freight costs varied considerably across regions.
+        Freight costs varied considerably across regions.
   
-  Delivery efficiency remained consistently high throughout the period.
+        Delivery efficiency remained consistently high throughout the period.
 
 
+<br><br>
 
-**8. Folder Structure**
+### **8. Folder Structure**
 
+```text
 olist-ecommerce-analytics/
 
 ├── data/
@@ -180,10 +187,11 @@ olist-ecommerce-analytics/
 ├── docs/
 │
 └── README.md
+```
 
+<br><br>
 
-
-**9. How to Run**
+### **9. How to Run**
 
 1. Clone Repository
 
@@ -206,8 +214,9 @@ olist-ecommerce-analytics/
 Refresh the data if prompted.
 
 
+<br><br>
 
-**Skills Demonstrated**
+### **Skills Demonstrated**
 
 - SQL Data Cleaning
 - Exploratory Data Analysis (EDA)
