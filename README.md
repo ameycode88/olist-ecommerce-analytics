@@ -111,7 +111,7 @@ olist-ecommerce-analytics/
 
 <br><br>
 
-### **9. How to Run**
+### **6. How to Run**
 
 1. Clone Repository
 
