@@ -1,5 +1,6 @@
 Olist E-Commerce Sales & Customer Analytics
 
+
 **1. Project Overview**
 
 This project analyzes the Brazilian E-Commerce Public Dataset by Olist to uncover sales performance, customer behavior, seller performance, and logistics efficiency using SQL, Excel, and Power BI.
@@ -12,6 +13,7 @@ Evaluate customer purchasing behavior
 Identify top-performing and underperforming sellers
 Measure delivery performance and logistics efficiency
 Build interactive dashboards for business decision-making
+
 
 
 **2. Dataset**
@@ -31,6 +33,7 @@ Geolocation
 
 It represents real Brazilian e-commerce transactions between 2016 and 2018.
 Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/suggestions
+
 
 
 **3. Business Questions**
@@ -55,6 +58,7 @@ Operations & Logistics
 3. Which sellers are underperforming?
 4. What is the average freight cost?
 5. How efficient is the delivery process?
+
 
 
 **4. Tech Stack**
@@ -86,6 +90,7 @@ Version Control
   - GitHub
 
 
+
 **5. Project Workflow**
 
 Raw CSV Files
@@ -107,6 +112,7 @@ Power BI
 (DAX + Interactive Dashboard)
 
 
+
 **6. Dashboard Preview**
 
 Excel Dashboard
@@ -120,6 +126,7 @@ Power BI Executive Dashboard
 Power BI Operations Dashboard
 
 ![Operations Dashboard](screenshots/powerbi_page2.png)
+
 
 
 **7. Key Insights**
@@ -151,6 +158,7 @@ Logistics
   Delivery efficiency remained consistently high throughout the period.
 
 
+
 **8. Folder Structure**
 
 olist-ecommerce-analytics/
@@ -174,27 +182,29 @@ olist-ecommerce-analytics/
 └── README.md
 
 
+
 **9. How to Run**
 
 1. Clone Repository
 
-git clone https://github.com/ameycode88/olist-ecommerce-analytics.git
+   git clone https://github.com/ameycode88/olist-ecommerce-analytics.git
 
 2. Import Dataset
 
-Download the Olist dataset from Kaggle and import the CSV files into PostgreSQL.
+   Download the Olist dataset from Kaggle and import the CSV files into PostgreSQL.
 
 3. Execute SQL Scripts
 
-Run the SQL scripts in the sql folder to clean, transform, and analyze the data.
+   Run the SQL scripts in the sql folder to clean, transform, and analyze the data.
 
 4. Open Power BI
 
-Open:
+   Open:
 
-  powerbi/Olist_Ecommerce_Analytics.pbix
+     powerbi/Olist_Ecommerce_Analytics.pbix
 
 Refresh the data if prompted.
+
 
 
 **Skills Demonstrated**
